@@ -5,7 +5,7 @@ const Button = ({ name, classes, icon, link }) => {
   return (
     <motion.button
       whileHover={{
-        scale: 1.1,
+        scale: 1,
         boxShadow: "0px 2px 0px rgba(255, 255, 255, 0.5)",
       }}
       whileTap={{ scale: 0.9 }}

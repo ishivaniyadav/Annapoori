@@ -34,9 +34,8 @@ const FoodPackInitiative = () => {
           {/* CTA */}
           <Button
             name="Donate Now"
-            icon={<IoIosArrowRoundForward />}
-            link="#contribution"
-            classes="w-48 text-white bg-blue-900 hover:bg-blue-1100 rounded-md shadow-md"
+            link="/stripe"
+            classes="w-48 text-white bg-blue-900 hover:bg-blue-700 rounded-md shadow-md"
           />
         </div>
 
