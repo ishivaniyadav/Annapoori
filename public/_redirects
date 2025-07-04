@@ -1,0 +1,5 @@
+# API requests will be redirected to the backend
+/api/* https://food-donation-backend-7sct.vercel.app/:splat 200
+
+# All routes should fall back to index.html for client-side routing
+/*    /index.html   200
