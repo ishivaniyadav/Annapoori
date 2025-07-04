@@ -1,6 +1,6 @@
 # 🌾 Annapoori – Nourishing Lives, One Meal at a Time
 
-![Banner](<img width="1340" height="614" alt="Image" src="https://github.com/user-attachments/assets/b4c4343d-d866-4eb2-bbbc-ded53ab208c5" />)
+![Banner](https://github.com/user-attachments/assets/b4c4343d-d866-4eb2-bbbc-ded53ab208c5)
 
 Annapoori is a community-powered platform committed to eradicating hunger by enabling food donations and volunteer support. Through a tech-enabled approach, we connect donors, volunteers, and underprivileged communities, making social impact simple and scalable.
 
@@ -95,20 +95,19 @@ Your app should now be running at [http://localhost:5173](http://localhost:5173)
 
 ### 💻 Events View
 
-![Events Screenshot](<img width="1325" height="612" alt="Image" src="https://github.com/user-attachments/assets/4a97d2ef-4624-45bb-9aca-fe1d693d2746" />)
+![Events Screenshot](https://github.com/user-attachments/assets/4a97d2ef-4624-45bb-9aca-fe1d693d2746)
 
 ### 💻 Dashboard View
 
-![Dashboard Screenshot](<img width="1313" height="493" alt="Image" src="https://github.com/user-attachments/assets/46e3f27a-59e8-4643-baf8-4aa555ef6280" />)
+![Dashboard Screenshot](https://github.com/user-attachments/assets/46e3f27a-59e8-4643-baf8-4aa555ef6280)
 
 ### 📱 Mobile Friendly UI
 
-![Mobile Screenshot](<img width="467" height="629" alt="Image" src="https://github.com/user-attachments/assets/e2f1b945-39dd-4b12-aaa6-415c457bcef9" />)
+![Mobile Screenshot](https://github.com/user-attachments/assets/e2f1b945-39dd-4b12-aaa6-415c457bcef9)
 
 ### 💳 Stripe Payment
 
-![Stripe Payment Screenshot](<img width="1117" height="639" alt="Image" src="https://github.com/user-attachments/assets/13002496-aba0-419a-99e6-e4998d981616" />
-)
+![Stripe Payment Screenshot](https://github.com/user-attachments/assets/13002496-aba0-419a-99e6-e4998d981616)
 
 > You can update these image paths with your actual screenshots from the `public/assets` folder.
 
