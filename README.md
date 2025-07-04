@@ -20,14 +20,7 @@ Annapoori is a community-powered platform committed to eradicating hunger by ena
 
 ## 🧰 Tech Stack
 
-| Tech             | Description                        |
-|------------------|------------------------------------|
-| ⚛️ React         | Frontend framework                 |
-| 🎨 Tailwind CSS  | Styling and responsive design      |
-| 🔐 Firebase      | Auth and Firestore DB              |
-| 💸 Stripe        | Payment processing                 |
-| 🎥 Framer Motion | Animations                         |
-| 🚀 Vercel        | Frontend deployment                |
+<p align="center"> <img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" alt="React" width="40" height="40"/> &nbsp;&nbsp; <img src="https://cdn.worldvectorlogo.com/logos/tailwind-css-2.svg" alt="Tailwind CSS" width="40" height="40"/> &nbsp;&nbsp; <img src="https://cdn.worldvectorlogo.com/logos/firebase-1.svg" alt="Firebase" width="40" height="40"/> &nbsp;&nbsp; <img src="https://cdn.worldvectorlogo.com/logos/stripe-4.svg" alt="Stripe" width="40" height="40"/> &nbsp;&nbsp; <img src="https://seeklogo.com/images/F/framer-motion-logo-DA1E33CAA1-seeklogo.com.png" alt="Framer Motion" width="40" height="40"/> &nbsp;&nbsp; <img src="https://cdn.worldvectorlogo.com/logos/vercel.svg" alt="Vercel" width="40" height="40"/> </p> <p align="center"> <b>React</b> &nbsp;|&nbsp; <b>Tailwind CSS</b> &nbsp;|&nbsp; <b>Firebase</b> &nbsp;|&nbsp; <b>Stripe</b> &nbsp;|&nbsp; <b>Framer Motion</b> &nbsp;|&nbsp; <b>Vercel</b> </p>
 
 ---
 
