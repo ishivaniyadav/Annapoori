@@ -8,7 +8,7 @@ const FoodPackInitiative = () => {
   return (
     <div className="w-full py-14 bg-[#eceaea]">
       <div className="max-w-7xl mx-auto flex flex-col-reverse lg:flex-row items-center gap-12">
-        {/* Left Text Section */}
+        
         <div className="w-full lg:w-300 flex flex-col gap-6">
           <h2 className="text-4xl font-bold text-gray-800 leading-snug">
             Together, we fight hunger with{" "}
@@ -31,7 +31,6 @@ const FoodPackInitiative = () => {
             </div>
           </div>
 
-          {/* CTA */}
           <Button
             name="Donate Now"
             link="/stripe"
@@ -39,7 +38,6 @@ const FoodPackInitiative = () => {
           />
         </div>
 
-        {/* Right Image Section */}
         <div className="w-full flex justify-end">
           <Image
             image={Donation}

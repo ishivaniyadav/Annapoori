@@ -37,7 +37,6 @@ const Navbar = () => {
   const navbarLinks = [
     { name: "Home", link: "/" },
     { name: "Foundation", link: "/foundation" },
-    { name: "how to help?", link: "/how-to-help" },
     { name: "volunteers", link: "/volunteers" },
     { name: "events", link: "/events" },
     { name: "dashboard", link: "/dashboard"}
@@ -71,7 +70,6 @@ const Navbar = () => {
 
   return (
     <>
-      {/* Desktop Navbar */}
       <div className="w-full bg-white lg:pt-8">
         <motion.div
           className="hidden text-blue-900 lg:justify-between bg-white lg:items-center lg:mx-12 lg:flex lg:h-12"
@@ -96,8 +94,7 @@ const Navbar = () => {
           </div>
         </motion.div>
       </div>
-
-      {/* Mobile Navbar */}
+      
       <div className="relative w-full text-blue-900 px-4 py-4 lg:hidden bg-white flex justify-between items-center">
         <span className="text-xl font-bold text-blue-900">Annapoori</span>
         <motion.div

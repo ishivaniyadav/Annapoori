@@ -45,7 +45,6 @@ const OurImpact = () => {
 
         </div>
 
-        {/* Right Section: Stats */}
         <div className="w-full lg:w-1/2 bg-blue-900 text-white p-8 flex flex-col justify-center gap-6">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {impactData.map((item, index) => (

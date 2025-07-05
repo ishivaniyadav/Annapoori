@@ -6,7 +6,7 @@ function Dashboard() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        {/* Page Header */}
+      
         <motion.div
           className="text-center mb-10"
           initial={{ opacity: 0, y: -10 }}
@@ -17,11 +17,10 @@ function Dashboard() {
             📊 Donation Dashboard
           </h1>
           <p className="text-gray-600 text-lg">
-            Review all your contributions in a clean, tabular format.
+            Review all contributions.
           </p>
         </motion.div>
 
-        {/* Donation Table Card */}
         <motion.div
           className="bg-white rounded-2xl shadow-lg p-6 overflow-x-auto"
           initial={{ opacity: 0, y: 30 }}
@@ -33,7 +32,7 @@ function Dashboard() {
           <table className="min-w-full divide-y divide-gray-200">
             <thead className="bg-blue-100 text-blue-900">
               <tr>
-                <th className="px-6 py-3 text-left text-sm font-semibold uppercase">#</th>
+                <th className="px-6 py-3 text-left text-sm font-semibold uppercase">Sno.</th>
                 <th className="px-6 py-3 text-left text-sm font-semibold uppercase">Donor Name</th>
                 <th className="px-6 py-3 text-left text-sm font-semibold uppercase">Amount (₹)</th>
                 <th className="px-6 py-3 text-left text-sm font-semibold uppercase">Date</th>

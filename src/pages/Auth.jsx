@@ -12,7 +12,7 @@ const Auth = () => {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
 
-  const navigate = useNavigate(); // ← Redirect hook
+  const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -25,7 +25,7 @@ const Auth = () => {
         await signInWithEmailAndPassword(auth, email, password);
       }
 
-      navigate("/"); // ← Redirect to home page after login/signup
+      navigate("/"); 
     } catch (err) {
       setError(err.message);
     }
@@ -68,7 +68,6 @@ const Auth = () => {
           </button>
         </form>
 
-        {/* Toggle */}
         <p className="text-center text-sm text-gray-600 mt-6">
           {isSignup ? "Already have an account?" : "Need an account?"}{" "}
           <button

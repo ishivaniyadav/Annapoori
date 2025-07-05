@@ -7,10 +7,8 @@ const Footer = () => {
     <motion.div
       className="w-full flex flex-col gap-12 bg-[#080144] text-white py-10 px-6 lg:py-16 lg:px-20"
     >
-      {/* Top Section */}
       <div className="flex flex-col gap-10 lg:flex-row lg:justify-between">
         
-        {/* Brand Info */}
         <div className="lg:w-1/2">
           <h1 className="text-2xl font-bold mb-4">Annapoori</h1>
           <p className="text-sm leading-relaxed text-gray-300">
@@ -20,7 +18,6 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Quick Links */}
         <div className="flex flex-wrap gap-10 lg:gap-20 lg:w-1/2 justify-between">
           <div className="flex flex-col gap-2">
             <h2 className="text-lg font-semibold mb-2">Explore</h2>
@@ -37,7 +34,6 @@ const Footer = () => {
             <a href="/faq" className="hover:underline text-sm">FAQ</a>
           </div>
 
-          {/* Social */}
           <div className="flex flex-col gap-2 items-start">
             <h2 className="text-lg font-semibold mb-2">Connect With Us</h2>
             <div className="flex gap-4 text-2xl">
@@ -50,7 +46,6 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Bottom Copyright */}
       <div className="w-full border-t border-gray-600 pt-6 text-center text-sm text-gray-400">
         © {new Date().getFullYear()} Annapoori Foundation. All rights reserved.
       </div>

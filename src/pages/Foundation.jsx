@@ -5,7 +5,6 @@ const Foundation = () => {
     <div className="min-h-screen bg-gray-100 py-12 px-4 sm:px-6 lg:px-8">
       <div className=" text-gray-800">
         
-        {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold text-blue-900 mb-4">Annapoori Foundation</h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -13,7 +12,6 @@ const Foundation = () => {
           </p>
         </div>
 
-        {/* Who We Are */}
         <section className="mb-12">
           <h2 className="text-3xl font-semibold text-blue-800 mb-4">Who We Are</h2>
           <p className="text-gray-700 text-lg leading-relaxed">
@@ -23,7 +21,6 @@ const Foundation = () => {
           </p>
         </section>
 
-        {/* Vision and Mission */}
         <section className="grid md:grid-cols-2 gap-10 mb-12">
           <div className="bg-[#f9f9f9] p-6 rounded-xl shadow-sm border border-blue-100">
             <h3 className="text-2xl font-semibold text-blue-800 mb-2">Our Vision</h3>

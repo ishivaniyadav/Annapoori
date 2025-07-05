@@ -32,7 +32,6 @@ function DonateButton() {
     }
 
     try {
-      // Save donation data to Firestore
       await addDoc(collection(db, "donations"), {
         name: name.trim(),
         amount: parseFloat(amount),
@@ -40,24 +39,24 @@ function DonateButton() {
         timestamp: serverTimestamp(),
       });
 
-      const stripe = await stripePromise;
+    const stripe = await stripePromise;
 
-      const response = await fetch("/api/create-checkout-session", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ amount: amountInPaise }),
-      });
+    const response = await fetch("/api/create-checkout-session", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ amount: amountInPaise }),
+    });
 
-      const data = await response.json();
+    if (!response.ok) {
+      const errorData = await response.json();
+      throw new Error(errorData?.error || "Something went wrong.");
+    }
 
-      if (!data.id) {
-        setError("Failed to create Stripe session.");
-        return;
-      }
+    const session = await response.json();
 
-      const result = await stripe.redirectToCheckout({ sessionId: data.id });
+    const result = await stripe.redirectToCheckout({ sessionId: session.id });
 
       if (result.error) {
         setError(result.error.message);
@@ -76,7 +75,6 @@ function DonateButton() {
           Your kindness can fill plates and hearts ❤️
         </p>
 
-        {/* Name input */}
         <div className="relative mb-4">
           <input
             type="text"
@@ -87,7 +85,6 @@ function DonateButton() {
           />
         </div>
 
-        {/* Amount input */}
         <div className="relative mb-4">
           <input
             type="number"
@@ -99,7 +96,6 @@ function DonateButton() {
           <FaRupeeSign className="absolute left-3 top-3.5 text-gray-400 text-xl" />
         </div>
 
-        {/* Checkbox */}
         <label className="flex items-center text-sm text-gray-700 mb-6 cursor-pointer">
           <input
             type="checkbox"
@@ -110,7 +106,6 @@ function DonateButton() {
           I confirm I want to donate
         </label>
 
-        {/* Button */}
         <button
           onClick={handleDonate}
           disabled={!agreed}
@@ -123,7 +118,6 @@ function DonateButton() {
           Donate Now
         </button>
 
-        {/* Error & Success messages */}
         {error && (
           <div className="flex items-center justify-center mt-4 text-red-600 text-sm">
             <FaTimesCircle className="mr-2" />

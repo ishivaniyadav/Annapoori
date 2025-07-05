@@ -25,10 +25,8 @@ const Main_Section = () => {
         className="absolute top-0 left-0 w-full h-full object-cover z-10 brightness-70"
       />
 
-      {/* Overlay */}
       <div className="absolute top-0 left-0 w-full h-full bg-opacity-60 z-10" />
 
-      {/* Content */}
       <div className="relative z-20 flex flex-col items-center justify-center h-full px-6 lg:px-24 text-center gap-8">
         <motion.h1
           className="text-5xl lg:text-6xl font-extrabold text-white leading-tight max-w-4xl"

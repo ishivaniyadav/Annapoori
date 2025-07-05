@@ -37,12 +37,10 @@ const WhyUs = () => {
             viewport={{ once: true }}
             className="relative bg-white p-6 rounded-xl w-270 shadow-lg hover:shadow-2xl transition-shadow duration-300"
           >
-            {/* Icon Dot */}
             <div className="absolute -left-[48px] top-6 w-10 h-10 bg-blue-900 rounded-full flex items-center justify-center shadow-md">
               {item.icon}
             </div>
 
-            {/* Text Content */}
             <h3 className="text-2xl font-semibold text-gray-800 mb-2">
               {item.title}
             </h3>
