@@ -36,26 +36,34 @@ function DonateButton() {
       await addDoc(collection(db, "donations"), {
         name: name.trim(),
         amount: parseFloat(amount),
-        date: new Date().toLocaleString("en-IN"), // e.g. "4/7/2025, 2:30:45 PM"
+        date: new Date().toLocaleString("en-IN"),
         timestamp: serverTimestamp(),
       });
 
       const stripe = await stripePromise;
 
-      const response = await fetch("http://localhost:4242/create-checkout-session", {
+      const response = await fetch("/api/create-checkout-session", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: {
+          "Content-Type": "application/json",
+        },
         body: JSON.stringify({ amount: amountInPaise }),
       });
 
-      const session = await response.json();
+      const data = await response.json();
 
-      const result = await stripe.redirectToCheckout({ sessionId: session.id });
+      if (!data.id) {
+        setError("Failed to create Stripe session.");
+        return;
+      }
+
+      const result = await stripe.redirectToCheckout({ sessionId: data.id });
 
       if (result.error) {
         setError(result.error.message);
       }
     } catch (err) {
+      console.error(err);
       setError("Something went wrong. Please try again later.");
     }
   };
