@@ -1,20 +1,21 @@
-# 🌾 Annapoori – Nourishing Lives, One Meal at a Time
+# 🥗 Annapoori – Food Donation Platform
 
-![Banner](https://github.com/user-attachments/assets/b4c4343d-d866-4eb2-bbbc-ded53ab208c5)
+![Banner](https://github.com/user-attachments/assets/3900965d-d086-470e-8ef3-8b7eda45065d)
 
-Annapoori is a community-powered platform committed to eradicating hunger by enabling food donations and volunteer support. Through a tech-enabled approach, we connect donors, volunteers, and underprivileged communities, making social impact simple and scalable.
+Annapoori is a full-featured web application that connects food donors with communities in need. It facilitates food and monetary donations, tracks donation requests, filters expired food, and builds transparency to inspire more contributions.
 
 ---
 
-## 📌 Key Features
+## 🚀 Features
 
-- 💳 **Stripe Integration** – Secure donations via Stripe
-- 🔐 **Authentication** – Login/Signup using Firebase Auth
-- 📊 **Donation Dashboard** – View and manage all donation entries
-- 🤝 **Volunteer Program** – Showcase of real people making real change
-- 📸 **Events Gallery** – See the moments that matter
-- 📱 **Responsive Design** – Looks great on all devices
-- ☁️ **Firebase Firestore** – Real-time data storage
+### 🧍 For Donors
+- 📦 **Donate Food:** Upload details including type, quantity, expiry date, and image.
+- 💰 **Donate Money:** Secure payment via Stripe.
+
+### 🎯 For Requesters
+- 📝 **Request Food:** Via form, SMS, or call (details shown via secure pop-up).
+- 🔎 **View Available Donations:** Sorted and filtered by expiry.
+- ❗ **Highlight Expiring Food:** Auto-mark food expiring in 3 days or expired.
 
 ---
 
@@ -95,19 +96,21 @@ Your app should now be running at [http://localhost:5173](http://localhost:5173)
 
 ### 💻 Events View
 
-![Events Screenshot](https://github.com/user-attachments/assets/4a97d2ef-4624-45bb-9aca-fe1d693d2746)
+![Events Screenshot](https://github.com/user-attachments/assets/7df807d3-30d8-41e0-b2e7-b38c3f40c53d)
 
 ### 💻 Dashboard View
 
-![Dashboard Screenshot](https://github.com/user-attachments/assets/46e3f27a-59e8-4643-baf8-4aa555ef6280)
+![Dashboard Screenshot](https://github.com/user-attachments/assets/6b83c37f-a902-4874-8d5d-6c844dcd295e)
+![Dashboard Screenshot](https://github.com/user-attachments/assets/15cc8267-95c5-461a-9c11-1741b57e71a2)
 
 ### 📱 Mobile Friendly UI
 
-![Mobile Screenshot](https://github.com/user-attachments/assets/e2f1b945-39dd-4b12-aaa6-415c457bcef9)
+![Mobile Screenshot](https://github.com/user-attachments/assets/07caf33f-5cc3-44c2-acd7-09d7987379b9)
+![Mobile Screenshot](https://github.com/user-attachments/assets/ba30820c-d580-49f7-8ed3-9d232d3fb4b6)
 
 ### 💳 Stripe Payment
 
-![Stripe Payment Screenshot](https://github.com/user-attachments/assets/13002496-aba0-419a-99e6-e4998d981616)
+![Stripe Payment Screenshot](https://github.com/user-attachments/assets/19eccfa6-9bde-4cbf-b9be-6b1269758cbe)
 
 > You can update these image paths with your actual screenshots from the `public/assets` folder.
 

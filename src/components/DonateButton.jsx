@@ -115,7 +115,7 @@ function DonateButton() {
               : "bg-gray-300 text-gray-500 cursor-not-allowed"
           }`}
         >
-          Donate Now
+          Donate Money
         </button>
 
         {error && (

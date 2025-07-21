@@ -11,11 +11,6 @@ const volunteers = [
     role: "Field Distribution",
     image: "/assets/volunteer2.jpg",
   },
-  {
-    name: "Sayra Singh",
-    role: "Logistics & Packing",
-    image: "/assets/volunteer3.jpg",
-  },
 ];
 
 const Volunteers = () => {
@@ -27,11 +22,11 @@ const Volunteers = () => {
           Meet the kind-hearted individuals who dedicate their time and energy to fight hunger.
         </p>
 
-        <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8">
+        <div className="grid lg:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-24">
           {volunteers.map((vol, index) => (
             <div
               key={index}
-              className="bg-white border border-gray-200 rounded-2xl shadow-md p-6 text-center transition transform hover:scale-105 duration-300"
+              className="bg-white border border-gray-200 rounded-2xl p-10 shadow-md text-center transition transform hover:scale-105 duration-300"
             >
               <img
                 src={vol.image}

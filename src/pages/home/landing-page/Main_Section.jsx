@@ -2,7 +2,6 @@ import React from "react";
 import { motion } from "framer-motion";
 import Button from "../../../components/Button";
 import banner from "../../../components/banner.png";
-import { IoIosArrowRoundForward } from "react-icons/io";
 import { useNavigate } from "react-router-dom";
 
 const Main_Section = () => {
@@ -10,12 +9,6 @@ const Main_Section = () => {
     "Help us bring hope to hungry families. Our Food Pack Appeal provides essential staples like rice, flour, oil, and lentils to those facing daily food insecurity — offering not just meals, but dignity and a chance for a better tomorrow.".split(
       " "
     );
-
-  const navigate = useNavigate(); 
-
-  const handleDonateClick = () => {
-    navigate("/stripe"); 
-  };
 
   return (
     <div className="relative w-full h-screen overflow-hidden">
@@ -60,13 +53,18 @@ const Main_Section = () => {
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.3, duration: 0.4 }}
+          className="flex gap-3"
         >
-          <button
-            onClick={handleDonateClick}
-            className="w-44 h-12 bg-blue-700 hover:bg-blue-1100 text-white text-bold border-none shadow-lg transition-all duration-300 flex items-center justify-center gap-2 rounded"
-          >
-            Donate Now
-          </button>
+          <Button
+            name="Donate Money"
+            link="/stripe"
+            classes="w-48 text-white bg-blue-900 hover:bg-blue-700 rounded-md shadow-md"
+          />
+          <Button
+            name="Donate Food"
+            link="/food"
+            classes="w-48 text-white bg-blue-900 hover:bg-blue-700 rounded-md shadow-md"
+          />
         </motion.div>
       </div>
     </div>

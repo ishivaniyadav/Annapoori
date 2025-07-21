@@ -30,12 +30,18 @@ const FoodPackInitiative = () => {
               💙 Your help means nutrition, dignity & care.
             </div>
           </div>
-
-          <Button
-            name="Donate Now"
-            link="/stripe"
-            classes="w-48 text-white bg-blue-900 hover:bg-blue-700 rounded-md shadow-md"
-          />
+          <div className="flex gap-3">
+            <Button
+              name="Donate Money"
+              link="/stripe"
+              classes="w-48 text-white bg-blue-900 hover:bg-blue-700 rounded-md shadow-md"
+            />
+            <Button
+              name="Donate Food"
+              link="/food"
+              classes="w-48 text-white bg-blue-900 hover:bg-blue-700 rounded-md shadow-md"
+            />
+          </div>
         </div>
 
         <div className="w-full flex justify-end">

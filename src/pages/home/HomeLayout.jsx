@@ -7,6 +7,7 @@ import Contribution from "./landing-page/Contribution";
 import FAQ from "./landing-page/FAQ";
 import FoodPackInitiative from "./landing-page/FoodPackInitiative";
 import OfflineSupport from './landing-page/OfflineSupport.jsx';
+import FeedbackForm from './landing-page/FeedbackForm.jsx';
 import Footer from "./landing-page/Footer";
 
 const HomeLayout = () => {
@@ -19,6 +20,7 @@ const HomeLayout = () => {
       <Contribution />
       <WhyUs />
       <FAQ />
+      <FeedbackForm/>
       <Footer />
     </div>
   );

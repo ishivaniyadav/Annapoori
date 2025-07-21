@@ -22,12 +22,12 @@ const WhyUs = () => {
   ];
 
   return (
-    <div className="w-full py-20 px-6 lg:px-32 bg-[#eceaea]" id="whyus">
-      <h2 className="text-4xl font-extrabold text-center text-gray-800 mb-16">
+    <div className="w-full py-16 px-4 sm:px-6 lg:px-20 bg-[#eceaea]" id="whyus">
+      <h2 className="text-3xl sm:text-4xl font-extrabold text-center text-gray-800 mb-12">
         Why Choose Us?
       </h2>
 
-      <div className="relative border-l-4 border-blue-900 ml-4 pl-6 space-y-12 max-w-4xl mx-auto">
+      <div className="relative border-l-4 border-blue-900 pl-6 ml-2 sm:ml-4 space-y-10 w-full">
         {whyUs.map((item, index) => (
           <motion.div
             key={index}
@@ -35,16 +35,17 @@ const WhyUs = () => {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: index * 0.3 }}
             viewport={{ once: true }}
-            className="relative bg-white p-6 rounded-xl w-270 shadow-lg hover:shadow-2xl transition-shadow duration-300"
+            className="relative bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 lg:mx-10"
           >
-            <div className="absolute -left-[48px] top-6 w-10 h-10 bg-blue-900 rounded-full flex items-center justify-center shadow-md">
+            
+            <div className="absolute -left-[42px] top-5 w-9 h-9 sm:w-10 sm:h-10 bg-blue-900 rounded-full flex items-center justify-center shadow-md">
               {item.icon}
             </div>
 
-            <h3 className="text-2xl font-semibold text-gray-800 mb-2">
+            <h3 className="text-xl sm:text-2xl font-semibold text-gray-800 mb-2">
               {item.title}
             </h3>
-            <p className="text-gray-600 text-base leading-relaxed">
+            <p className="text-gray-600 text-[15px] leading-relaxed">
               {item.desc}
             </p>
           </motion.div>
