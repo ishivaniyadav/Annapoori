@@ -103,16 +103,9 @@ Your app should now be running at [http://localhost:5173](http://localhost:5173)
 ![Dashboard Screenshot](https://github.com/user-attachments/assets/6b83c37f-a902-4874-8d5d-6c844dcd295e)
 ![Dashboard Screenshot](https://github.com/user-attachments/assets/15cc8267-95c5-461a-9c11-1741b57e71a2)
 
-### 📱 Mobile Friendly UI
-
-![Mobile Screenshot](https://github.com/user-attachments/assets/07caf33f-5cc3-44c2-acd7-09d7987379b9)
-![Mobile Screenshot](https://github.com/user-attachments/assets/ba30820c-d580-49f7-8ed3-9d232d3fb4b6)
-
 ### 💳 Stripe Payment
 
 ![Stripe Payment Screenshot](https://github.com/user-attachments/assets/19eccfa6-9bde-4cbf-b9be-6b1269758cbe)
-
-> You can update these image paths with your actual screenshots from the `public/assets` folder.
 
 ---
 
