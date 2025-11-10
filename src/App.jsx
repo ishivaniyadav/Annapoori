@@ -14,7 +14,6 @@ import Stripe from "./pages/StripePage";
 import SuccessPage from "./pages/SuccessPage";
 import FailurePage from "./pages/FailurePage";
 import Foundation from "./pages/Foundation";
-import Volunteers from "./pages/Volunteers";
 import Events from "./pages/Events";
 import FoodDonations from "./pages/FoodDonations";
 import Contact from "./pages/Contact";
@@ -29,7 +28,6 @@ const App = () => {
           <Route path="/auth" element={<Auth />} />
           <Route path="/dashboard" element={<Dashboard />}/>
           <Route path="/foundation" element={<Foundation />} />
-          <Route path="/volunteers" element={<Volunteers />} />
           <Route path="/events" element={<Events />} />
           <Route path="/food" element={<FoodDonations />} />
           <Route path="/stripe" element={<Stripe />} />
