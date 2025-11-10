@@ -5,7 +5,6 @@ import { FiMenu } from "react-icons/fi";
 import { auth, provider } from "../../../firebase";
 import { signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
 import { Link } from "react-router-dom";
-
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const [user, setUser] = useState(null);

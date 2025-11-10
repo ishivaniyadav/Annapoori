@@ -1,6 +1,5 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-
 function Contribution() {
   const navigate = useNavigate();
 

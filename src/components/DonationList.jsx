@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "../firebase";
-
 const DonationList = () => {
   const [donations, setDonations] = useState([]);
 

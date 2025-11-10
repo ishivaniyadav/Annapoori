@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 const events = [
   {
     title: "Food Pack Distribution Week",

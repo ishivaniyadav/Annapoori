@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import toast from "react-hot-toast";
-
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",

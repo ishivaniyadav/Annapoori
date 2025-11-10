@@ -9,7 +9,6 @@ import FoodPackInitiative from "./landing-page/FoodPackInitiative";
 import OfflineSupport from './landing-page/OfflineSupport.jsx';
 import FeedbackForm from './landing-page/FeedbackForm.jsx';
 import Footer from "./landing-page/Footer";
-
 const HomeLayout = () => {
   return (
     <div className="bg-[#fff] text-[#00000] overflow-hidden">

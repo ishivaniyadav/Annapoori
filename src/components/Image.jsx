@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 const Image = ({ image, alt, style }) => {
   const [loaded, setLoaded] = useState(true);
   return (

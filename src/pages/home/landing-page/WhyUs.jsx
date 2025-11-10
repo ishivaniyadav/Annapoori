@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { IoPeople, IoShieldCheckmark, IoTime } from "react-icons/io5";
-
 const WhyUs = () => {
   const whyUs = [
     {

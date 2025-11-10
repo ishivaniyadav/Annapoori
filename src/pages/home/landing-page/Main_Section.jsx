@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import Button from "../../../components/Button";
 import banner from "../../../components/banner.png";
 import { useNavigate } from "react-router-dom";
-
 const Main_Section = () => {
   const text =
     "Help us bring hope to hungry families. Our Food Pack Appeal provides essential staples like rice, flour, oil, and lentils to those facing daily food insecurity — offering not just meals, but dignity and a chance for a better tomorrow.".split(

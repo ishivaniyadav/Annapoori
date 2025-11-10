@@ -3,7 +3,6 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 import Button from "../../../components/Button";
 import Image from "../../../components/Image";
 import Donation from "../../../components/donation1.png";
-
 const FoodPackInitiative = () => {
   return (
     <div className="w-full py-14 bg-[#eceaea]">

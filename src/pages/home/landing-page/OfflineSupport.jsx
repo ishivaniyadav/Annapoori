@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaSms, FaPhoneAlt } from "react-icons/fa";
-
 const OfflineSupport = () => {
   return (
     <div className="bg-[#fff] text-[#1F2937] px-6 py-16 w-full flex flex-col items-center gap-8 lg:px-24 lg:py-20">

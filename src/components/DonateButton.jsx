@@ -3,7 +3,6 @@ import { loadStripe } from "@stripe/stripe-js";
 import { FaRupeeSign, FaCheckCircle, FaTimesCircle } from "react-icons/fa";
 import { db } from "../firebase";
 import { addDoc, collection, serverTimestamp } from "firebase/firestore";
-
 const stripePromise = loadStripe(import.meta.env.VITE_STRIPE_PUBLISHABLE_KEY);
 
 function DonateButton() {

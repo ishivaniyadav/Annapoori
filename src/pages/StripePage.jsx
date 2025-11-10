@@ -1,7 +1,6 @@
 import React from "react";
 import DonateButton from "../components/DonateButton";
 import { FaHandsHelping } from "react-icons/fa";
-
 const Stripe = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-100 via-blue-100 to-blue-200 flex flex-col items-center justify-center px-4 py-10 font-sans">
