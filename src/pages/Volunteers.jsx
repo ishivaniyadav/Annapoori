@@ -2,14 +2,14 @@ import React from "react";
 
 const volunteers = [
   {
-    name: "Shivani Yadav",
+    name: "User 1",
     role: "Fundraising & Outreach",
-    image: "/assets/volunteer1.jpg",
+    image: "/assets/volunteer.jpg",
   },
   {
-    name: "Soumyadeep Dey",
+    name: "User 2",
     role: "Field Distribution",
-    image: "/assets/volunteer2.jpg",
+    image: "/assets/volunteer.jpg",
   },
 ];
 
